@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.dylanxyz.termite.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "termite.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinLocalPlayer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
